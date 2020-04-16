@@ -1,4 +1,3 @@
-# see https://github.com/pre-commit/action
 name: pre-commit
 
 on:
@@ -7,6 +6,7 @@ on:
     branches: [master]
 
 jobs:
+  # see https://github.com/pre-commit/action
   pre-commit:
     runs-on: ubuntu-latest
     steps:
