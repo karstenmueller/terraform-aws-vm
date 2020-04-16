@@ -35,6 +35,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # see https://github.com/rickardl/tflint-action
       - name: Terraform Lint
-        uses: rickardl/tflint-action@v1
+        uses: rickardl/tflint-action@v1.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
