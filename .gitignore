@@ -1,0 +1,8 @@
+# Terraform
+**/.terraform/*
+**/.terragrunt-cache*/*
+*.tfstate
+*.tfstate.*
+
+# Local stuff
+*local*
